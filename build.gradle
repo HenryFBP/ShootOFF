@@ -213,7 +213,7 @@ task fxJar(dependsOn: build) {
     description 'Create a runnable jar for ShootOFF'
     group 'Package'
 
-    inputs.dir sourceSets.main.output.classesDir
+    inputs.dir sourceSets.main.output.classesDirs
     inputs.dir sourceSets.main.output.resourcesDir
     outputs.file archivePath
 
